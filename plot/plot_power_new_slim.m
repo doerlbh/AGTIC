@@ -66,7 +66,7 @@ for n=1:numel(stat_names)
             stat_is(14) = n;
             stat_colors(2,:) = cmap(2,:);
         case ['Hoeffding''', 's D']
-            stat_names{n} = ['Hoeffding''', 's D'];
+            stat_names{n} = ['Hoeffding''', 's D '];
             stat_is(15) = n;
             stat_colors(3,:) = cmap(3,:);
         case 'MI (Kraskov k=1)',
@@ -194,7 +194,7 @@ for n=1:numel(stat_names)
     end
 end
 
-            stat_names{24} = 'Adaptive MI - kMax ';
+            stat_names{24} = 'Adaptive MI - s2 ';
 
 %%
 % Order all results by relationship, then by noise
